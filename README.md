@@ -58,7 +58,7 @@ flight_reservation_app/
 ```bash
 git clone https://github.com/YOUR_USERNAME/flight-reservation-app.git
 cd flight-reservation-app
-
+```
 No need to install dependencies
 You only need Python’s built-in modules such as tk.
 simply click on the main.exe in dist/
