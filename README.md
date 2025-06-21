@@ -37,19 +37,18 @@ Users can create, view, update, and delete flight reservations using a clean and
 
 ---
 
-## 📁 File Structure
 flight_reservation_app/
-├── main.py # Main application entry point
-├── database.py # SQLite database setup
-├── booking.py # Booking form GUI
-├── home.py # Home page with navigation
-├── reservations.py # Reservation list and management
-├── edit_reservation.py # Edit reservation form
-├── flights.db # SQLite database file
-├── requirements.txt # List of required packages
-├── README.md # This file
-└── dist/
-└── main.exe # Compiled executable (if built)
+│
+├── main.py                 # Main application entry point
+├── database.py             # SQLite database setup
+├── booking.py              # Booking form UI
+├── home.py                 # Home page UI
+├── reservations.py         # View/Delete reservations UI
+├── edit_reservation.py     # Edit reservation functionality
+│
+├── flights.db              # SQLite database file (auto-generated)
+├── requirements.txt
+
 
 
 ## 🛠️ How to Run (Locally)
@@ -63,11 +62,13 @@ No need to install dependencies
 You only need Python’s built-in modules such as tk.
 simply click on the main.exe in dist/
 
-Ehab Ashraf
-💼 Civil Engineer turned DevOps enthusiast
-🖥️ LinkedIn Profile: https://www.linkedin.com/in/ehab-ashraf-mu/
-📬 Feel free to reach out for collaboration or feedback!
+🙋 About the Author
+
+- Ehab Ashraf
+- 💼 Civil Engineer turned DevOps enthusiast
+- 🖥️ LinkedIn Profile: https://www.linkedin.com/in/ehab-ashraf-mu/
+ -📬 Feel free to reach out for collaboration or feedback!
 
 ⭐️ Show Your Support
-If you like this project, feel free to give it a ⭐️ on GitHub and share it with others!
+- If you like this project, feel free to give it a ⭐️ on GitHub and share it with others!
 
