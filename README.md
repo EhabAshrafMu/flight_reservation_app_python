@@ -38,16 +38,21 @@ Users can create, view, update, and delete flight reservations using a clean and
 ---
 
 flight_reservation_app/
+├── main.py               # Main application entry point
+├── database.py           # SQLite database setup
+├── booking.py            # Flight booking form UI
+├── home.py               # Home page with navigation buttons
+├── reservations.py       # Reservation list (read/delete)
+├── edit_reservation.py   # Edit reservation form
 │
-├── main.py                 # Main application entry point
-├── database.py             # SQLite database setup
-├── booking.py              # Booking form UI
-├── home.py                 # Home page UI
-├── reservations.py         # View/Delete reservations UI
-├── edit_reservation.py     # Edit reservation functionality
+├── flights.db            # SQLite database file
+├── requirements.txt      # Required Python packages
+├── README.md             # Project documentation
+├── .gitignore            # Git ignored files
 │
-├── flights.db              # SQLite database file (auto-generated)
-├── requirements.txt
+└── dist/
+    └── main.exe          # Compiled executable (if built with PyInstaller)
+
 
 
 
